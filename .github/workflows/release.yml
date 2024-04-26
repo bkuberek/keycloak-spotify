@@ -31,7 +31,7 @@ jobs:
       # maven-semantic-release requires "maven-settings.xml" in the workspace directory
       run: |
         mv ~/.m2/settings.xml maven-settings.xml
-        semantic-release --branch master --use-conveyal-workflow --skip-maven-deploy
+        semantic-release --branch main --use-conveyal-workflow --skip-maven-deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
