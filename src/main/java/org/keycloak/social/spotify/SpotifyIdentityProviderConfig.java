@@ -21,6 +21,8 @@ import org.keycloak.broker.oidc.OAuth2IdentityProviderConfig;
 import org.keycloak.models.IdentityProviderModel;
 
 /**
+ * Spotify Identity Provider Configuration.
+ *
  * @author <a href="mailto:bkuberek@gmail.com">Bastian Kuberek</a>
  */
 public class SpotifyIdentityProviderConfig extends OAuth2IdentityProviderConfig {

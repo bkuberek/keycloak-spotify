@@ -29,6 +29,8 @@ import org.keycloak.events.EventBuilder;
 import org.keycloak.models.KeycloakSession;
 
 /**
+ * Spotify Identity Provider.
+ *
  * @author <a href="mailto:bkuberek@gmail.com">Bastian Kuberek</a>
  */
 public class SpotifyIdentityProvider extends AbstractOAuth2IdentityProvider<SpotifyIdentityProviderConfig>

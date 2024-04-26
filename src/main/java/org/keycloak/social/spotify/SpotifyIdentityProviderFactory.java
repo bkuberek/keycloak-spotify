@@ -27,6 +27,8 @@ import org.keycloak.provider.ProviderConfigurationBuilder;
 import java.util.List;
 
 /**
+ * Spotify Identity Provider Factory.
+ *
  * @author <a href="mailto:bkuberek@gmail.com">Bastian Kuberek</a>
  */
 public class SpotifyIdentityProviderFactory extends AbstractIdentityProviderFactory<SpotifyIdentityProvider>
